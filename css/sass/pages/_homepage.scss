@@ -1,0 +1,118 @@
+// S Slider
+.slider {
+  blockquote {
+    font: {
+      size: 19px;
+      style: italic;
+      weight: bold;
+    }
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.7;
+    color: #5e5e5e;
+  }
+  img {
+    width: 100%;
+    height: 400px;
+  }
+  .bullites {
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: $gray-color;
+      cursor: pointer;
+      &.active,
+      &:hover {
+        border: 3px solid #000;
+        background-color: #fff;
+      }
+    }
+  }
+}
+// E Slider
+// S Services
+.services {
+  .box {
+    padding-bottom: 50px;
+    display: flex;
+    .serive {
+      h3 {
+        color: #4a4949;
+        &:first-letter {
+          background-color: #383232;
+          color: #d0d0d0;
+          padding: 10px 10px;
+          border-radius: 10px;
+          margin-right: 10px;
+        }
+      }
+      p {
+        color: #717070;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      a {
+        color: red;
+        text-decoration: none;
+      }
+      &:not(:last-of-type) {
+        padding-right: 15px;
+      }
+    }
+  }
+}
+// E Services
+// S Player
+.player {
+  .player-box {
+    padding-bottom: 50px;
+    display: flex;
+    .serive {
+      width: calc(100% / 5);
+      img {
+        width: 100%;
+        height: 200px;
+        &:last-of-type {
+          width: 90%;
+        }
+      }
+      h3 {
+        color: #8b7777;
+        font-size: 16px;
+        span {
+          color: #928a8a;
+          font-size: 20px;
+        }
+      }
+      p {
+        color: #717070;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      a {
+        color: red;
+        text-decoration: none;
+      }
+      &:not(:last-of-type) {
+        padding-right: 20px;
+      }
+    }
+  }
+}
+// E Player
+.ipsom {
+  .ipsome {
+    padding-bottom: 50px;
+    display: flex;
+    img {
+      &:not(:last-of-type) {
+        padding-right: 20px;
+      }
+    }
+  }
+}
+// E Ipsom
